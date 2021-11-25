@@ -9,7 +9,6 @@ contract HotelRoom {
     Status public statuses;
 
     event LogBookRoom(address boook, uint value);
-    event LogRefund(address receiver, uint256 amt);
 
     constructor() {
         owner = payable(msg.sender);          //ethereum addres of user how call this function, owner of contract
